@@ -102,3 +102,24 @@ Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // [Engine Memory]: 1,339 MB (+1252854kb) [00:00:20]
 // WARNING: HEventQueue.dispatchEvent() is taking  3995 ms.
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1598.004 ; gain = 0.000 
+// [GUI Memory]: 113 MB (+32424kb) [00:00:24]
+// Project name: Moscorrofia; location: C:/Users/Nicol/OneDrive/Escritorio/Moscorrofia; part: xc7k70tfbv676-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 122 MB (+3428kb) [00:00:42]
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, X.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, X.v]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1158 ms.
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 132 MB (+3997kb) [00:00:47]
+// Elapsed time: 46 seconds
+selectCodeEditor("X.v", 163, 15); // be
+// Elapsed time: 34 seconds
+selectCodeEditor("X.v", 144, 30); // be
+selectCodeEditor("X.v", 168, 16); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1069 ms.

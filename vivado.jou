@@ -12,3 +12,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Nicol/OneDrive/Escritorio/Moscorrofia/Moscorrofia.xpr
+update_compile_order -fileset sources_1
